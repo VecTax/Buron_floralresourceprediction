@@ -1,7 +1,10 @@
 ### Code for Buron et al. (2026)
 #
 
-source("scripts/initialisation_prairies.R")
+library(readxl)
+library(dplyr)
+library(tidyverse)
+library(ggplot2)
 library(caret)
 library(randomForest)
 
